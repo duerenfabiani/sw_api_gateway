@@ -12,7 +12,7 @@ var logger = require('morgan');
 const helmet = require('helmet');
 
 //const pecasServiceProxy = httpProxy('http://localhost:3002');
-//const pecasServiceProxy = httpProxy('https://pecas-api.herokuapp.com/');
+const pecasServiceProxy = httpProxy('https://pecas-api.herokuapp.com/');
 
 const ola = (request, response, next) => {
     
